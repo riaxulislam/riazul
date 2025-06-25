@@ -20,7 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 200px;
+  margin: 0 200px;
 }
 
 .snd-bg {
@@ -102,8 +102,8 @@ main {
   margin-bottom: 130px;
 }
 
-.section-title {
-  font-size: 35px;
+.sectione-title {
+  font-size: 50px;
   font-weight: bold;
 }
 .section-description {
@@ -126,3 +126,137 @@ main {
   font-weight: bold;
 }
 
+/* What I Do section styles */
+
+.what-i-do {
+  text-align: center;
+}
+
+.what-i-do-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+.what-i-do-item {
+  width: 30%;
+  text-align: left;
+  max-width: 267px;
+  max-height: 377px;
+  padding: 30px;
+  border: #f0f0f0 solid 1px;
+  border-radius: 5px;
+  margin-right: 24px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.item-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Resume section styles */
+
+.resume {
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  column-gap: 25px;
+  text-align: left;
+}
+
+.resume-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  max-width: 560px;
+  border-bottom: #e4e4e4 solid 1px;
+}
+
+.exp-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #2e2e2e;
+}
+
+.exp-sub-title {
+  font-size: 20px;
+  font-weight: semibold;
+  color: #4d4d4d;
+  margin-top: -30px;
+}
+
+.exp-description {
+  margin-right: 50px;
+}
+
+/* Footer styles */
+
+.footer {
+  padding: 130px 230px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.sectione-description {
+  font-size: 18px;
+  font-weight: regular;
+  margin-bottom: 30px;
+}
+
+.footer-column img {
+  width: 30px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+footer input[type="text"] {
+  height: 64px;
+  padding: 10px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+footer input[type="email"] {
+  height: 64px;
+  padding: 10px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+footer textarea {
+  padding: 10px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
