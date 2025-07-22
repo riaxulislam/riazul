@@ -304,3 +304,32 @@ footer textarea {
 }
 
 /* Footer styles End */
+
+
+/* responsive media query */
+.hide {
+  display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+  .what-i-do-items, .resume-container, .footer {
+    flex-direction: column;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+
+
+  .what-i-do-item, .resume-container{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+}
+
+
