@@ -301,7 +301,7 @@ footer textarea {
 
 
 @media screen and (max-width: 576px) {
-  .what-i-do-items, .resume-container, .footer {
+  .what-i-do-items, .resume-container, .footer, .about-items {
     flex-direction: column;
   }
 
@@ -311,18 +311,12 @@ footer textarea {
   margin-bottom: 20px;
 }
 
-  .footer {
+  .footer, .about {
     padding: 20px;
   }
   .footer-column {
     width: 80%;
   }
-
-
-
-
-
-
 
 }
 
