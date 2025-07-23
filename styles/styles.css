@@ -8,6 +8,10 @@
     "wdth" 100;
 }
 
+body {
+  margin: 0;
+}
+
 /*Header styles */
 .header {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -301,7 +305,11 @@ footer textarea {
 
 
 @media screen and (max-width: 576px) {
-  .what-i-do-items, .resume-container, .footer, .about-items {
+  .what-i-do-items, 
+  .resume-container, 
+  .footer, 
+  .about-items, 
+  .banner {
     flex-direction: column;
   }
 
@@ -310,6 +318,35 @@ footer textarea {
   margin: auto;
   margin-bottom: 20px;
 }
+  .header{ 
+    background: none;
+  }
+  .banner {
+    margin: 10px;
+  }
+
+  .btn-primary {
+    margin-bottom: 10px;
+  }
+
+  .banner-titel{
+    padding: 0;
+  }
+  .btn-snd{
+    margin: 0;
+    width: 228px;
+  }
+
+  .banner-greetings {
+    margin-top: 20PX;
+  }
+
+  .banner > a {
+    margin-bottom: 10px;
+  }
+  .banner> img {
+    width: 100%;
+  }
 
   .footer, .about {
     padding: 20px;
